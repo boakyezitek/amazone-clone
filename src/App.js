@@ -10,17 +10,23 @@ function App() {
   return (
   <Router >
     <div className="app">
-        <Header />
+
   {/* Header */}
   <Switch >
 
         {/* Home */}
           <Route path="/" exact>
+            <Header />
             <Home />
           </Route>
         <Route path="/checkout">
+            <Header />
           <Checkout />
         </Route>
+
+          <Route path="/login">
+            <h1>Login Page</h1>
+          </Route>
 
 
   </Switch>
