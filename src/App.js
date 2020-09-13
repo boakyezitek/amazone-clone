@@ -8,6 +8,7 @@ import Checkout from './Component/Checkout/Checkout';
 import Login from './Component/Login/Login';
 import {auth} from './DBConfig/Firebase';
 import { useStateValue } from './Provider/StateProvider';
+//https://e-clone-9c4f5.web.app
 function App() {
 
   const [{}, dispatch] = useStateValue();
